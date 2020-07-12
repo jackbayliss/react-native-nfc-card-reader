@@ -22,7 +22,17 @@ NfcCardReader.startNfc(function(cardDetails){
 
 ## Methods
  `startNfc(callback)` -> Will start the NFC Activity and will callback with the card details it's scanned.
+     
+### Callback data
+`cardType` -> Provides the type of the card scanned.
+`cardNumber` -> Provides the full card number scanned.
+`expiryDate` -> Providers the expiry date of the card scanned.
+
+# Contributing
+I am by no means an Android developer, but saw this as a huge thing no one had produced for React Native. So, if you can expand or improve on my basic implementation feel free to create a pull request. 
 
 
  # License
- MIT
+ MIT - expanded from [here](https://github.com/pro100svitlo/Credit-Card-NFC-Reader)
+ 
+ 
