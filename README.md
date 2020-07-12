@@ -19,7 +19,10 @@ NfcCardReader.startNfc(function(cardDetails){
 
     })
 ```
-
+Ensure you add the following to your `AndroidManifest.xml` located in `android\app\src\main`
+```
+<activity android:name="com.jackbayliss.nfcreader.NfcCardReaderActivity"/>
+```
 ## Methods
  `startNfc(callback)` -> Will start the NFC Activity and will callback with the card details it's scanned.
      
@@ -27,6 +30,9 @@ NfcCardReader.startNfc(function(cardDetails){
 `cardType` -> Provides the type of the card scanned.
 `cardNumber` -> Provides the full card number scanned.
 `expiryDate` -> Providers the expiry date of the card scanned.
+
+### Example App
+You can find the sample app [here](https://github.com/jackbayliss/react-native-nfc-card-reader-sample)
 
 # Contributing
 I am by no means an Android developer, but saw this as a huge thing no one had produced for React Native. So, if you can expand or improve on my basic implementation feel free to create a pull request. 
