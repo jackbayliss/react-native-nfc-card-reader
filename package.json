@@ -18,7 +18,7 @@
     "baseUrl": "https://github.com/jackbayliss/react-native-nfc-card-reader"
   },
   "keywords": [
-    "react-native"
+    "react-native", "nfc-card-reader","nfc-credit-card","nfc card"
   ],
   "author": {
     "name": "Jack Bayliss",
