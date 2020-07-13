@@ -28,11 +28,13 @@ Ensure you add the following to your `AndroidManifest.xml` located in `android\a
 <activity android:name="com.jackbayliss.nfcreader.NfcCardReaderActivity"/>
 ```
 ## Methods
- `startNfc(callback)` -> Will start the NFC Activity and will callback with the card details it's scanned.
+ `startNfc(callback)` -> Will start the NFC Activity and expects a callback function that will return the card details it's scanned.
      
 ### Callback data
 `cardType` -> Provides the type of the card scanned.
+
 `cardNumber` -> Provides the full card number scanned.
+
 `expiryDate` -> Providers the expiry date of the card scanned.
 
 ### Example App
