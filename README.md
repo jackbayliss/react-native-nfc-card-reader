@@ -48,3 +48,6 @@ I am by no means an Android developer, but saw this as a huge thing no one had p
  MIT - expanded from [here](https://github.com/pro100svitlo/Credit-Card-NFC-Reader)
  
  
+ A special thanks to [pro100svitlo](https://github.com/pro100svitlo/Credit-Card-NFC-Reader) for their library which gave me the ability to create this module.
+ 
+ 
