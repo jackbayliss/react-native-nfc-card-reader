@@ -1,5 +1,9 @@
 # react-native-nfc-card-reader
 
+## Description 
+This package is specifically designed to scan credit/debit cards using an Android devices NFC reader and return the card number, expiry and card type.
+
+This package will only work on Android and isn't available for iOS as of 2020  because Apple do not allow 3rd party iPhone apps to use the Core NFC framework.
 ## Getting started
 
 `$ npm install react-native-nfc-card-reader --save`
