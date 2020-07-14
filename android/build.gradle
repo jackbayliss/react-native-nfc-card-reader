@@ -154,6 +154,5 @@ afterEvaluate { project ->
 
             }
                  implementation 'com.android.support:multidex:1.0.0'
-                 implementation 'org.apache.directory.studio:org.apache.commons.io:2.4'
     }
        
