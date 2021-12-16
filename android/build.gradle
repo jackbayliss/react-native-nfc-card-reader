@@ -29,6 +29,7 @@ buildscript {
     // ref: https://docs.gradle.org/current/userguide/tutorial_using_tasks.html#sec:build_script_external_dependencies
     if (project == rootProject) {
         repositories {
+            maven { url 'https://jitpack.io' }
             google()
             jcenter()
         }
@@ -58,6 +59,7 @@ android {
 
 repositories {
     // ref: https://www.baeldung.com/maven-local-repository
+    maven { url 'https://jitpack.io' }
     mavenLocal()
     maven {
         // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
@@ -149,7 +151,7 @@ afterEvaluate { project ->
     }
 }
     dependencies {
-	        implementation ('com.github.pro100svitlo:creditCardNfcReader:1.0.3'){
+	        implementation ('com.github.jackbayliss:Credit-Card-NFC-Reader:1.1.2'){
                     exclude module: 'bolts-android'
 
             }
