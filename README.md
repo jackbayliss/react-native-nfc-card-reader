@@ -7,8 +7,12 @@ This package will only work on Android and isn't available for iOS as of 2020  b
 ## Getting started
 
 `$ npm install react-native-nfc-card-reader --save`
-### For Gradle 7.0 and greater you can do:
+### For Gradle 7.0 and < 7.2 you can do:
 `npm install "https://github.com/jackbayliss/react-native-nfc-card-reader.git#gradle7.0" --save`
+
+### For Gradle 7.2 you can do:
+`npm install "https://github.com/jackbayliss/react-native-nfc-card-reader.git#gradle7.2" --save`
+
 ### Mostly automatic installation
 
 `$ react-native link react-native-nfc-card-reader`
