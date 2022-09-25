@@ -155,6 +155,7 @@ afterEvaluate { project ->
     dependencies {
 	        implementation ('com.github.jackbayliss:Credit-Card-NFC-Reader:1.1.2'){
                     exclude module: 'bolts-android'
+		    exclude module: 'commons-io'
 
             }
                  implementation 'com.android.support:multidex:1.0.0'
