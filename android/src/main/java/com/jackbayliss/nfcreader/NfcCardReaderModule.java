@@ -52,9 +52,15 @@ public class NfcCardReaderModule extends ReactContextBaseJavaModule implements A
                         String cardNumber = intent.getExtras().getString("cardNumber");
                         String expiryDate = intent.getExtras().getString("expiryDate");
                         String cardType = intent.getExtras().getString("cardType");  
+		    	String firstName = intent.getExtras().getString("firstName");
+                        String lastName = intent.getExtras().getString("lastName");  
+		    
                         NfcCardDetails.putString("cardNumber", cardNumber);
                         NfcCardDetails.putString("expiryDate", expiryDate);
                         NfcCardDetails.putString("cardType", cardType);
+		    	NfcCardDetails.putString("firstName", firstName);
+                        NfcCardDetails.putString("lastName", lastName);
+
                         mNfcCallback.invoke(NfcCardDetails);
                     }
        }
