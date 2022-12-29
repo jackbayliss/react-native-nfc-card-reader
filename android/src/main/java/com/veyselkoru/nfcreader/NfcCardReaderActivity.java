@@ -1,4 +1,4 @@
-package com.jackbayliss.nfcreader;
+package com.veyselkoru.nfcreader;
 
 import android.os.Bundle;
 import android.content.Intent;
@@ -6,8 +6,8 @@ import android.nfc.NfcAdapter;
 import android.app.Activity;
 import android.widget.Toast;
 
-import com.pro100svitlo.creditCardNfcReader.CardNfcAsyncTask;
-import com.pro100svitlo.creditCardNfcReader.utils.CardNfcUtils;
+import com.veyselkoru.creditCardNfcReader.CardNfcAsyncTask;
+import com.veyselkoru.creditCardNfcReader.utils.CardNfcUtils;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactInstanceManager;

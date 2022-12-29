@@ -84,7 +84,7 @@ def configureReactNativePom(def pom) {
         name packageJson.title
         artifactId packageJson.name
         version = packageJson.version
-        group = "com.jackbayliss.nfcreader"
+        group = "com.veyselkoru.nfcreader"
         description packageJson.description
         url packageJson.repository.baseUrl
 
@@ -115,7 +115,7 @@ afterEvaluate { project ->
     task androidJavadoc(type: Javadoc) {
         source = android.sourceSets.main.java.srcDirs
         classpath += files(android.bootClasspath)
-        classpath += files(project.getConfigurations().getByName('customConfig').asList())
+        //classpath += files(project.getConfigurations().getByName('customConfig').asList())
         include '**/*.java'
     }
 
@@ -153,7 +153,7 @@ afterEvaluate { project ->
 
 }
     dependencies {
-	        implementation ('com.github.jackbayliss:Credit-Card-NFC-Reader:1.1.2'){
+        implementation ('com.github.veyselkoru:Credit-Card-NFC-Reader:2.0.1'){
                     exclude module: 'bolts-android'
 
             }
