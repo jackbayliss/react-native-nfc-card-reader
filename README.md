@@ -8,7 +8,7 @@ This package will only work on Android and isn't available for iOS as of 2020  b
 
 `$ npm install react-native-nfc-card-reader --save`
 ### For Gradle 7.0 and greater you can do:
-`npm install "https://github.com/jackbayliss/react-native-nfc-card-reader.git#gradle7.0" --save`
+`npm install "https://github.com/veyselkoru/react-native-nfc-card-reader.git#gradle7.0" --save`
 ### Mostly automatic installation
 
 `$ react-native link react-native-nfc-card-reader`
@@ -26,7 +26,7 @@ NfcCardReader.startNfc(function(cardDetails){
 ```
 Ensure you add the following to your `AndroidManifest.xml` located in `android\app\src\main`
 ```
-<activity android:name="com.jackbayliss.nfcreader.NfcCardReaderActivity"/>
+<activity android:name="com.veyselkoru.nfcreader.NfcCardReaderActivity"/>
 ```
 ## Methods
  `startNfc(callback)` -> Will start the NFC Activity and expects a callback function that will return the card details it's scanned.
@@ -43,7 +43,7 @@ Ensure you add the following to your `AndroidManifest.xml` located in `android\a
 `lastName` -> Card owners last name.
 
 ### Example App
-You can find the sample app [here](https://github.com/jackbayliss/react-native-nfc-card-reader-sample)
+You can find the sample app [here](https://github.com/veyselkoru/react-native-nfc-card-reader-sample)
 
 # Contributing
 I am by no means an Android developer, but saw this as a huge thing no one had produced for React Native. So, if you can expand or improve on my basic implementation feel free to create a pull request. 

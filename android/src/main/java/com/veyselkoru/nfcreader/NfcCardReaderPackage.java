@@ -1,4 +1,4 @@
-package com.jackbayliss.nfcreader;
+package com.veyselkoru.nfcreader;
 
 import java.util.Arrays;
 import java.util.Collections;

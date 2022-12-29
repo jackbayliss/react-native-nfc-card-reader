@@ -1,7 +1,7 @@
 {
   "name": "react-native-nfc-card-reader",
   "title": "React Native Nfc Card Reader",
-  "version": "1.0.6",
+  "version": "2.0.1",
   "description": "An NFC reader specifically for credit/debit cards.",
   "main": "index.js",
   "files": [
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jackbayliss/react-native-nfc-card-reader.git",
-    "baseUrl": "https://github.com/jackbayliss/react-native-nfc-card-reader"
+    "url": "git+https://github.com/veyselkoru/react-native-nfc-card-reader.git",
+    "baseUrl": "https://github.com/veyselkoru/react-native-nfc-card-reader"
   },
   "keywords": [
     "react-native", "nfc-card-reader","nfc-credit-card","nfc card"
   ],
   "author": {
-    "name": "Jack Bayliss",
-    "email": "jack@jackbayliss.com"
+    "name": "Veysel KORU",
+    "email": "veyselkoru@gmail.com"
   },
-  "homepage": "https://github.com/jackbayliss/react-native-nfc-card-reader",
+  "homepage": "https://github.com/veyselkoru/react-native-nfc-card-reader",
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",

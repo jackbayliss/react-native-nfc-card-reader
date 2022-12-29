@@ -1,4 +1,4 @@
-package com.jackbayliss.nfcreader;
+package com.veyselkoru.nfcreader;
 
 import android.content.Intent;
 import android.app.Activity;
